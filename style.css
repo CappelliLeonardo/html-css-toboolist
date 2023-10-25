@@ -42,18 +42,20 @@ h1 {
 .add{
     padding: 5px 12px;
     border-radius: 5px;
-    border: 1px solid;
     font-weight: 1000;
 }
 
 .buttonblue{
     color: white;
     background-color: rgb(55, 158, 236);
+    border: 1px solid rgb(55, 158, 236);
+
 }
 
 .buttongrey{
     color: lightgrey;
     background-color: white;
+    border: 1px solid lightgrey
 }
 
 #list-container {
@@ -84,9 +86,10 @@ h1 {
     color: red;
 }
 .listed-button{
-    padding: 5px 12px;
+    padding: 5px 8px;
     border-radius: 50px;
     border: none;
+    display: inline-block;
 }
 
 .editorial{
